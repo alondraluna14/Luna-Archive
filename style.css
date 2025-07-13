@@ -1,0 +1,62 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(Train-Japan.gif
+    );
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    ;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("train-japan.gif");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4); 
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  color: white;
+  max-width: 900px;
+  margin: auto;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton-redireccion{
+    background-color: #462735;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton-redireccion:hover{
+    background-color: #5a3b4c;
+}
